@@ -1,0 +1,30 @@
+{
+  "name": "tournament-designer-backend",
+  "version": "1.0.0",
+  "description": "Backend server with REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soseen/tournament-designer-backend.git"
+  },
+  "author": "Przemek Sosnowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soseen/tournament-designer-backend/issues"
+  },
+  "homepage": "https://github.com/soseen/tournament-designer-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  }
+}
